@@ -1,0 +1,17 @@
+<html>
+  <body>
+    <div>
+      <dl>
+        <dt>name</dt>
+        <dd><%= name %></dd>
+        <dt>age</dt>
+        <dd><%= age %></dd>
+      </dl>
+    </div>
+    <form action="/v1/welcome" method="post">
+      <input type="text" name="name" />
+      <input type="number" name="age" />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
